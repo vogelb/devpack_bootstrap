@@ -22,6 +22,7 @@ goto done
 git clone http://github.com/vogelb/jee-devpack-win.git %DEVPACK_NAME%
 cd %DEVPACK_NAME%
 rmdir /S /Q .git >NUL
+del .gitignore
 
 echo.
 echo DevPack instance %DEVPACK_NAME% created.
